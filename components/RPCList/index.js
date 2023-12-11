@@ -298,3 +298,4 @@ const LightGreenIcon = () => (
     />
   </svg>
 );
+curl https://eth-mainnet.g.alchemy.com/v2/K65KESvPum3ui73Jk6wOxxREAh8a2buu -X POST -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":["latest", false],"id":0}'
